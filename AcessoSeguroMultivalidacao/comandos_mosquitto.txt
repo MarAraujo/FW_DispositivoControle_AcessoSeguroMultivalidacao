@@ -1,0 +1,2 @@
+mosquitto_pub -h localhost -p 1883 -t 'Nome do Topico' -m "MSG"
+mosquitto_sub -h localhost -p 1883 -t 'Nome do Topico'
